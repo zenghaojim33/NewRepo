@@ -10,12 +10,14 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+    var anotherWindow: UIWindow!
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
+    
+
 
     // MARK: UISceneSession Lifecycle
 
@@ -31,6 +33,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    
 
+}
+
+extension UIWindowScene {
+    static var focused: UIWindowScene? {
+        return UIApplication.shared.connectedScenes
+            .first { $0.activationState == .foregroundActive && $0 is UIWindowScene } as? UIWindowScene
+    }
 }
 

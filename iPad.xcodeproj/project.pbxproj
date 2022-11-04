@@ -13,6 +13,7 @@
 		3E7B73B82913FB030030070B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7B73B62913FB030030070B /* Main.storyboard */; };
 		3E7B73BA2913FB070030070B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7B73B92913FB070030070B /* Assets.xcassets */; };
 		3E7B73BD2913FB070030070B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7B73BB2913FB070030070B /* LaunchScreen.storyboard */; };
+		3E7B73C529141B250030070B /* UIWindow+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7B73C429141B250030070B /* UIWindow+Transition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3E7B73B92913FB070030070B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E7B73BC2913FB070030070B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E7B73BE2913FB070030070B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7B73C429141B250030070B /* UIWindow+Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Transition.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3E7B73B02913FB030030070B /* AppDelegate.swift */,
 				3E7B73B22913FB030030070B /* SceneDelegate.swift */,
 				3E7B73B42913FB030030070B /* ViewController.swift */,
+				3E7B73C429141B250030070B /* UIWindow+Transition.swift */,
 				3E7B73B62913FB030030070B /* Main.storyboard */,
 				3E7B73B92913FB070030070B /* Assets.xcassets */,
 				3E7B73BB2913FB070030070B /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7B73C529141B250030070B /* UIWindow+Transition.swift in Sources */,
 				3E7B73B52913FB030030070B /* ViewController.swift in Sources */,
 				3E7B73B12913FB030030070B /* AppDelegate.swift in Sources */,
 				3E7B73B32913FB030030070B /* SceneDelegate.swift in Sources */,
